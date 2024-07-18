@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Netflix.css">
+  
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                 alt="Netflix Logo" style="margin-left: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New & Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My List</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-bell"></i></a>
+                    </li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" 
+                    alt="Profile" class="rounded-circle" style="height: 25px ;width: 25px;margin: 10px;">
+                </ul> 
+            </div>
+        </div>
+    </nav>
+
+
+                              <!--header-->
+
+
+    <header class="m-2">
+      <div class="container-fluid text-white  d-flex  d-flex align-items-center justify-content-between gap-4">
+     <div class="d-flex align-items-center gap-4">   
+         <h1 class="titolo"  style="margin-left: 33px;">
+             The Shows
+         </h1>
+         <div>
+             <a class="nav-link dropdown-toggle bg-black border" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Genere</a>
+             <ul class="dropdown-menu bg-black">
+                 <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                 <li><a class="dropdown-item text-white" href="#">Thriller</a></li> 
+                 <li><a class="dropdown-item text-white" href="#">Reality</a></li>
+                 <li><a class="dropdown-item text-white" href="#">Fantasy</a></li>
+                 <li><a class="dropdown-item text-white" href="#">Crime</a></li>
+                 <li><a class="dropdown-item text-white" href="#">Drammatici</a></li>
+                 <li><a class="dropdown-item text-white" href="#">Documentari</a></li>
+             </ul>
+         </div>
+     </div>
+     
+      <div class="border custom-size-icon-header d-none d-md-block">
+                <a href="#">
+                    <i class="bi bi-menu-button-wide-fill text-white"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+             <!--header fine-->
+
+   <section class="container-fluid mt-5 mb-5  ">
+        <div class="row">
+           <div class="col"  style="margin-left: 40px;">
+             <h3>Trending Now</h3>
+           </div>
+        </div>
+   
+
+
+        <div class="container">
+            <div class="netflix-slider-container">
+                <div class="netflix-slider">
+                    <button class="nav-btn prev-btn">&lt;</button>
+                    <div class="slider">
+
+                        <!-- Inserisci qui le tue immagini -->
+                        <img src="/Assets/1 copia.png" alt="Immagine 1">
+                        <img src="/Assets/10.png" alt="Immagine 2">
+                        <img src="/Assets/3.png" alt="Immagine 3">
+                        <img src="/Assets/12.png" alt="Immagine 4">
+                        <img src="/Assets/7.png" alt="Immagine 5">
+                        <img src="/Assets/6.png" alt="Immagine 6">
+                        <img src="/Assets/8.png" alt="Immagine 7">
+                        <img src="/Assets/10.png" alt="Immagine 8">
+                        <img src="/Assets/5.png" alt="Immagine 9">
+                        <img src="/Assets/1.png" alt="Immagine 10">
+                    </div>
+                    <button class="nav-btn next-btn">&gt;</button>
+                </div>
+            </div>
+    
+
+                      <!--Secondo slider-->
+
+          
+                <div class="row">
+                   <div class="col">
+                     <h3>Watch It Again</h3>
+                   </div>
+                </div>
+            <div class="netflix-slider-container">
+                <div class="netflix-slider">
+                    <button class="nav-btn prev-btn">&lt;</button>
+                    <div class="slider">
+                       
+                        <img src="/Assets/1 copia.png" alt="Immagine 11">
+                        <img src="/Assets/12.png" alt="Immagine 12">
+                        <img src="/Assets/7.png" alt="Immagine 13">
+                        <img src="/Assets/6.png" alt="Immagine 14">
+                        <img src="/Assets/7.png" alt="Immagine 15">
+                        <img src="/Assets/7.png" alt="Immagine 16">
+                        <img src="/Assets/5.png" alt="Immagine 17">
+                        <img src="/Assets/12.png" alt="Immagine 18">
+                        <img src="/Assets/1 copia.png" alt="Immagine 19">
+                        <img src="/Assets/10.png" alt="Immagine 20">
+                    </div>
+                    <button class="nav-btn next-btn">&gt;</button>
+                </div>
+            </div>
+
+            <!--terzo slider -->
+
+            <div class="netflix-slider-container  ">  
+                <div class="row">
+                   <div class="col " >
+                     <h3 id="scrittaslider" >New Releases</h3>
+                   </div>
+                </div>
+    
+           
+                <div class="netflix-slider">
+                    <button class="nav-btn prev-btn">&lt;</button>
+                    <div class="slider">
+                        
+                        <img src="/Assets/6.png" alt="Immagine 21">
+                        <img src="/Assets/11.png" alt="Immagine 22">
+                        <img src="/Assets/3.png" alt="Immagine 23">
+                        <img src="/Assets/1 copia.png" alt="Immagine 24">
+                        <img src="/Assets/11.png" alt="Immagine 25">
+                        <img src="/Assets/4.png" alt="Immagine 26">
+                        <img src="/Assets/6.png" alt="Immagine 27">
+                        <img src="/Assets/6.png" alt="Immagine 28">
+                        <img src="/Assets/2.png" alt="Immagine 29">
+                        <img src="/Assets/1 copia.png" alt="Immagine 30">
+                    </div>
+                    <button class="nav-btn next-btn">&gt;</button>
+                </div>
+            </div>
+         </div>
+    </section>
+          
+     
+    
+                 <!-- Footer -->
+<div id="div-footer" class="container footer " style="margin-top: 40px;">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    
+                    <p>
+                        <i class="bi bi-youtube" id="icon-footer"></i>
+                        <i class="bi bi-instagram" id="icon-footer"></i>
+                        <i class="bi bi-twitter" id="icon-footer"></i>
+                        <i class="bi bi-facebook" id="icon-footer"></i>
+                    </p>
+                    
+                    <ul class="text-white" style="color: gray; margin-top: 34px; list-style: none;">
+                        <li style="color: rgb(122, 119, 119)">Audio and Subtitle</li>
+                        <li   style="color: rgb(122, 119, 119)">Media Center</li>
+                        <li   style="color: rgb(122, 119, 119)">Privacy</li>
+                        <li  style="color: rgb(122, 119, 119)">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <ul class="text-white" style=" margin-top: 70px; list-style: none;">
+                        <li   style="color: rgb(122, 119, 119)">Audio description</li>
+                        <li   style="color: rgb(122, 119, 119)">Investor Relation</li>
+                        <li   style="color: rgb(122, 119, 119)">Terms and Conditions</li>
+                        <li  style="color: rgb(122, 119, 119)">Legal Notices</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6 mt-4 mt-md-0">
+                    <ul class="text-white" ; style="list-style: none; margin-top: 70px;">
+                        <li  style="color: rgb(122, 119, 119)">Help Center</li>
+                        <li style="color: rgb(122, 119, 119)">Jobs</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6 mt-4 mt-md-0">
+                    <ul class="text-white" style="color: gray; margin-top: 70px; list-style: none;">
+                        <li  style="color: rgb(122, 119, 119)">Gift card</li>
+                        <li  style="color: rgb(122, 119, 119)">Subscription</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10 mx-auto"  style="color: gray; margin-top: 40px; padding-right: 20px;">
+            <div class="row">
+               
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
+<script src="Netflix.js">
+   
+</script>
+
+
+</body>
+</html>
+
+
+
+
+

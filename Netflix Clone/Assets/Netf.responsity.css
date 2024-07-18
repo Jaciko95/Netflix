@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f3e6e6;
+   }
+
+
+.navbar-nav .nav-item .nav-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 20px;
+   }
+
+navbar-nav .nav-item .nav-link:hover  {
+    color: #0a0606;
+   }     
+   
+.navbar-profile img {
+    cursor: pointer;
+   }
+    
+.icon {
+    height: 15px;
+    width: 15px;
+   }
+.titolo{padding-left: 10px;}         
+
+
+#navBarone{background-color: #ede2e2;}
+
+
+#navbarNav{background-color: #000000;}
+
+
+.dae{background-color: #55ea34;}
+
+
+
+@media(max-width:767.98){.navbar-brand img{
+
+                 width: 43px !important;
+
+                     }
+.netflix-padding-left{
+                      padding-left: 10px !important;
+                     }
+
+.netflix-padding-right{
+                       padding-right: 10px; 
+                      }
+                       
+.netflix-dropdown-box{
+                      display: block !important;
+                      }
+}
+
+
